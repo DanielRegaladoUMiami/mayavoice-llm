@@ -1,0 +1,55 @@
+# Data (stays local — too large for git)
+data/*.jsonl
+data/*.csv
+data/**/*.csv
+data/**/*.pdf
+data/**/*.docx
+data/**/*.mp3
+data/textos-paralelos/
+data/diccionarios/
+data/entrenamiento/
+data/corpus-rag/
+data/audio/
+data/documentos-referencia/
+
+# Models
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.key
+
+# GCP
+service-account*.json
+credentials*.json

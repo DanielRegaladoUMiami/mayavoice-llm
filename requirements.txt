@@ -1,0 +1,28 @@
+# Training
+unsloth[colab-new]
+torch>=2.0
+transformers>=4.40
+datasets>=2.19
+peft>=0.10
+trl>=0.8
+bitsandbytes>=0.43
+
+# RAG
+langchain>=0.1
+chromadb>=0.4
+sentence-transformers>=2.6
+
+# API & Inference
+fastapi>=0.110
+uvicorn>=0.29
+vllm>=0.4
+gradio>=4.20
+
+# Evaluation
+sacrebleu>=2.4
+unbabel-comet>=2.2
+
+# Utils
+pandas>=2.2
+numpy>=1.26
+python-dotenv>=1.0

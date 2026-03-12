@@ -1,0 +1,47 @@
+# Configuración de entrenamiento para lenguas mayas
+# ===================================================
+
+model:
+  base_model: "meta-llama/Llama-3.2-3B-Instruct"  # o "mistralai/Mistral-7B-Instruct-v0.2"
+
+lora:
+  r: 16                    # Rank de LoRA (8, 16, 32, 64)
+  alpha: 32                # Alpha de LoRA (típicamente 2*r)
+  dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+data:
+  raw_dir: "../mayan-data-organized"
+  processed_dir: "../data/processed"
+  val_ratio: 0.1           # 10% para validación
+
+training:
+  output_dir: "../models"
+  num_epochs: 3
+  batch_size: 4            # Ajustar según GPU (L4: 4, A100: 8-16)
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-4
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  max_length: 512          # Longitud máxima de secuencia
+
+  # Logging y checkpointing
+  logging_steps: 10
+  save_steps: 500
+  eval_steps: 500
+
+  # W&B (opcional)
+  use_wandb: false
+  wandb_project: "mayan-llm"
+
+hardware:
+  gpu: "L4"                # L4, T4, A100
+  mixed_precision: "fp16"  # fp16 o bf16
