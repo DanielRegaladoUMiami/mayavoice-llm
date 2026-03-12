@@ -14,6 +14,7 @@ from pathlib import Path
 from collections import defaultdict
 
 LANG_CODES = {
+    'achi': ('acr', 'Achi'),
     'awakateko': ('agu', 'Awakateko'),
     'chuj': ('cac', 'Chuj'),
     'itza': ('itz', "Itza'"),
