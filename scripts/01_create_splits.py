@@ -18,6 +18,7 @@ LANG_CODES = {
     'awakateko': ('agu', 'Awakateko'),
     'chuj': ('cac', 'Chuj'),
     'itza': ('itz', "Itza'"),
+    'kaqchikel': ('cak', 'Kaqchikel'),
     'kiche': ('quc', "K'iche'"),
     'mam': ('mam', 'Mam'),
     'poqomam': ('poc', 'Poqomam'),
