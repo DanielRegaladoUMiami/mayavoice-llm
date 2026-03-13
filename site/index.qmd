@@ -1,6 +1,6 @@
 ---
-title: "MayaVoice"
 pagetitle: "MayaVoice — AI Translation for Mayan Languages"
+title: ""
 toc: false
 ---
 
