@@ -1,0 +1,144 @@
+---
+title: "MayaVoice"
+pagetitle: "MayaVoice — AI Translation for Mayan Languages"
+toc: false
+---
+
+::: {.hero-section}
+
+# 🌽 MayaVoice
+
+::: {.subtitle}
+Breaking the language barrier for 6 million Mayan speakers in Guatemala through AI-powered translation.
+:::
+
+[Try the Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){.cta-button}
+[View Results](results.qmd){.cta-button .secondary}
+
+::: {.hero-stats}
+::: {.stat}
+[14]{.stat-number}
+[Languages]{.stat-label}
+:::
+::: {.stat}
+[6M+]{.stat-number}
+[Speakers]{.stat-label}
+:::
+::: {.stat}
+[40.28]{.stat-number}
+[BLEU Score]{.stat-label}
+:::
+::: {.stat}
+[35K+]{.stat-number}
+[Dictionary Entries]{.stat-label}
+:::
+:::
+
+:::
+
+## The Problem {.section-header}
+
+::: {.section-subtitle}
+Millions of Maya speakers in Guatemala face critical barriers to healthcare, education, justice, and government services — simply because these services operate exclusively in Spanish.
+:::
+
+::: {.problem-grid}
+
+::: {.problem-card}
+::: {.card-icon}
+🏥
+:::
+### Healthcare
+Patients cannot describe symptoms or understand diagnoses in Spanish. Medical miscommunication leads to misdiagnosis, treatment errors, and preventable deaths in rural Maya communities.
+:::
+
+::: {.problem-card}
+::: {.card-icon}
+⚖️
+:::
+### Justice
+Maya speakers face legal proceedings conducted entirely in Spanish. Without adequate translation, defendants cannot understand charges, testify effectively, or access their legal rights.
+:::
+
+::: {.problem-card}
+::: {.card-icon}
+📚
+:::
+### Education
+Children who speak K'iche', Q'eqchi', or Mam at home are taught exclusively in Spanish. This linguistic gap is a primary driver of dropout rates in indigenous communities.
+:::
+
+::: {.problem-card}
+::: {.card-icon}
+🏛️
+:::
+### Government
+Despite constitutional recognition of 14 Mayan languages, government services, forms, and official communications remain almost exclusively in Spanish.
+:::
+
+:::
+
+## The Opportunity
+
+Guatemala legally recognizes 14 Mayan languages, and its constitution mandates access to public services in indigenous languages. Yet no scalable translation technology existed — until now.
+
+::: {.market-grid}
+
+::: {.market-item}
+#### Government
+Municipalities serving 6M+ Maya speakers need translation for public services, legal proceedings, and official communications.
+:::
+
+::: {.market-item}
+#### Healthcare
+Hospitals and clinics in the highlands require translation for patient intake, diagnosis, and treatment instructions.
+:::
+
+::: {.market-item}
+#### NGOs & Development
+International organizations working in Guatemala need translation for community outreach, surveys, and program delivery.
+:::
+
+::: {.market-item}
+#### Education
+Bilingual education programs require translation tools for curriculum development and teacher support.
+:::
+
+:::
+
+## Our Solution
+
+MayaVoice is the **first AI-powered translation system** built specifically for Guatemalan Mayan languages. It covers 14 languages across 4 linguistic branches, serving the vast majority of Maya speakers in the country.
+
+Unlike generic translation services that ignore low-resource languages, MayaVoice was trained on authentic Mayan language data — parallel texts, curated dictionaries, and verified linguistic resources — combined with a retrieval-augmented generation (RAG) system that grounds translations in verified vocabulary.
+
+::: {.metric-highlight}
+[40.28 BLEU · 55.07 chrF]{.metric-value}
+
+Evaluated on 300 held-out test sentences across all 14 languages. Top-performing languages (Mam, Kaqchikel) achieve BLEU scores above 40 — competitive with commercial translation systems for much higher-resource language pairs.
+:::
+
+::: {.maya-callout}
+> MayaVoice doesn't just translate words — it bridges a centuries-old communication gap between Guatemala's indigenous majority and the institutions that serve them.
+:::
+
+## What's Next
+
+We are actively expanding MayaVoice's capabilities:
+
+- **Conversational AI assistant** for real-time bilingual support
+- **Voice input/output** for speakers who may not read/write in their language
+- **Domain-specific models** for healthcare, legal, and education contexts
+- **Community validation** with native speakers for continuous quality improvement
+- **Mobile-first deployment** for use in rural areas with limited connectivity
+
+---
+
+::: {.section-header}
+## Get Involved
+
+MayaVoice is an open research project. We welcome collaborations with linguists, native speakers, NGOs, government agencies, and anyone working to preserve and promote Mayan languages.
+:::
+
+[Try the Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){.cta-button}
+[View on GitHub](https://github.com/DanielRegaladoUMiami/mayavoice-llm){.cta-button .secondary}

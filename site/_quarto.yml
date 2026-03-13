@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MayaVoice"
+  favicon: "images/favicon.png"
+  navbar:
+    background: "#1a5632"
+    foreground: "#ffffff"
+    logo: "images/logo.png"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Results"
+        href: results.qmd
+      - text: "Languages"
+        href: languages.qmd
+      - text: "Vision"
+        href: vision.qmd
+    right:
+      - icon: github
+        href: https://github.com/DanielRegaladoUMiami/mayavoice-llm
+      - text: "Try Demo"
+        href: https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice
+
+  page-footer:
+    center: "© 2025 MayaVoice · Daniel Regalado Cardoso · University of Miami"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.css]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true

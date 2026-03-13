@@ -1,0 +1,332 @@
+/* ===== MayaVoice Custom Theme ===== */
+
+:root {
+  --maya-green: #1a5632;
+  --maya-gold: #d4a017;
+  --maya-light: #f0f7f2;
+  --maya-dark: #0d2b19;
+  --maya-accent: #2d8a4e;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, var(--maya-dark) 0%, var(--maya-green) 50%, var(--maya-accent) 100%);
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+  margin: -1rem -1rem 2rem -1rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-section .subtitle {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.hero-section .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-section .stat {
+  text-align: center;
+}
+
+.hero-section .stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--maya-gold);
+}
+
+.hero-section .stat-label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.cta-button {
+  display: inline-block;
+  background: var(--maya-gold);
+  color: var(--maya-dark);
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 1rem 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(212, 160, 23, 0.4);
+  color: var(--maya-dark);
+  text-decoration: none;
+}
+
+.cta-button.secondary {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+.cta-button.secondary:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+/* Section styling */
+.section-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-header h2 {
+  color: var(--maya-green);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-header .section-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Problem cards */
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.problem-card {
+  background: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.problem-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.problem-card .card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.problem-card h3 {
+  color: var(--maya-green);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.problem-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Metrics highlight */
+.metric-highlight {
+  background: var(--maya-light);
+  border-left: 4px solid var(--maya-green);
+  padding: 1.5rem 2rem;
+  border-radius: 0 1rem 1rem 0;
+  margin: 2rem 0;
+}
+
+.metric-highlight .metric-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--maya-green);
+}
+
+/* Quote/callout styling */
+.maya-callout {
+  background: linear-gradient(135deg, var(--maya-light), #fff);
+  border: 1px solid rgba(26, 86, 50, 0.15);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.maya-callout blockquote {
+  border: none;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--maya-dark);
+}
+
+/* Market grid */
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.market-item {
+  background: white;
+  border: 2px solid var(--maya-light);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.market-item h4 {
+  color: var(--maya-green);
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  .hero-section .subtitle {
+    font-size: 1.1rem;
+  }
+  .hero-section .hero-stats {
+    gap: 1.5rem;
+  }
+  .hero-section .stat-number {
+    font-size: 1.8rem;
+  }
+}
+
+/* Table styling overrides */
+.results-table table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.results-table th {
+  background: var(--maya-green);
+  color: white;
+  padding: 0.8rem 1rem;
+}
+
+.results-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.results-table tr:hover {
+  background: var(--maya-light);
+}
+
+/* Language cards */
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.lang-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  padding: 1.2rem;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+.lang-card:hover {
+  border-color: var(--maya-green);
+}
+
+.lang-card .lang-name {
+  font-weight: 700;
+  color: var(--maya-green);
+  font-size: 1.05rem;
+}
+
+.lang-card .lang-speakers {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.lang-card .lang-bleu {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--maya-dark);
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--maya-green);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.35rem;
+  top: 0.3rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--maya-gold);
+  border: 3px solid var(--maya-green);
+}
+
+.timeline-item h4 {
+  color: var(--maya-green);
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item p {
+  color: #555;
+  margin: 0;
+}
+
+.timeline-item .timeline-date {
+  font-size: 0.85rem;
+  color: var(--maya-gold);
+  font-weight: 600;
+}

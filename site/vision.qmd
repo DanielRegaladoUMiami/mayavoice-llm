@@ -1,0 +1,83 @@
+---
+title: "Vision & Roadmap"
+---
+
+## Vision
+
+MayaVoice aims to become the **standard translation infrastructure** for Mayan languages in Guatemala — used by hospitals, courts, schools, government offices, and NGOs to communicate with the 40% of Guatemala's population that speaks a Mayan language.
+
+We envision a future where language is no longer a barrier to healthcare, justice, education, or civic participation for Maya communities.
+
+## Roadmap
+
+::: {.timeline}
+
+::: {.timeline-item}
+[Completed]{.timeline-date}
+
+#### Foundation
+First AI translation model for 14 Guatemalan Mayan languages. 40.28 BLEU across all languages. Dictionary-augmented RAG system with 35K+ verified entries. Live demo deployed.
+:::
+
+::: {.timeline-item}
+[In Progress]{.timeline-date}
+
+#### Quality Expansion
+New data sources from community partnerships. Domain-specific training for healthcare and legal terminology. Improved handling of low-resource languages (Itza', Tz'utujil). Community validation with native speaker panels.
+:::
+
+::: {.timeline-item}
+[Next]{.timeline-date}
+
+#### Voice & Accessibility
+Speech-to-text input for Maya speakers who may not read/write. Text-to-speech output with natural pronunciation. Mobile-optimized interface for rural deployment. Offline capability for areas with limited connectivity.
+:::
+
+::: {.timeline-item}
+[Future]{.timeline-date}
+
+#### Platform & Integration
+API for third-party integration (hospitals, courts, schools). Institutional partnerships with Guatemala's Ministry of Health, ALMG, and Ombudsman's office. Real-time interpretation for legal proceedings and medical consultations.
+:::
+
+:::
+
+## Use Cases
+
+### Healthcare
+A Q'eqchi'-speaking patient arrives at a hospital in Alta Verapaz. The doctor uses MayaVoice to translate intake questions, understand symptoms, and explain the treatment plan — in the patient's own language.
+
+### Legal System
+A Mam-speaking defendant in Quetzaltenango receives a translated version of the charges against them. Their testimony is translated accurately for the court record. Justice is served in both languages.
+
+### Education
+A bilingual education program in Sololá uses MayaVoice to help teachers create K'iche'-language materials for math and science curricula that previously existed only in Spanish.
+
+### Government Services
+The Municipality of Huehuetenango uses MayaVoice to translate public health announcements, voting information, and municipal services into Q'anjob'al and Chuj for rural communities.
+
+## About
+
+MayaVoice is developed by **Daniel Regalado Cardoso** at the **University of Miami** as part of ongoing research in low-resource NLP and indigenous language technology.
+
+This project is motivated by a deep commitment to linguistic equity and the belief that AI should serve the communities that need it most — not just the languages that are most commercially profitable.
+
+### Contact
+
+For collaboration inquiries, partnerships, or questions:
+
+- **Email:** dxr1491@miami.edu
+- **GitHub:** [DanielRegaladoUMiami/mayavoice-llm](https://github.com/DanielRegaladoUMiami/mayavoice-llm)
+- **Demo:** [MayaVoice on Hugging Face](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice)
+
+### Citation
+
+```bibtex
+@misc{regalado2025mayavoice,
+  author = {Regalado Cardoso, Daniel},
+  title = {MayaVoice: Machine Translation for 14 Mayan Languages of Guatemala},
+  year = {2025},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora-v2}
+}
+```

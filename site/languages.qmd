@@ -1,0 +1,136 @@
+---
+title: "Supported Languages"
+---
+
+## 14 Mayan Languages of Guatemala
+
+MayaVoice supports translation between Spanish and 14 officially recognized Mayan languages, covering the four major linguistic branches present in Guatemala. Together, these languages are spoken by over 6 million people — roughly 40% of Guatemala's population.
+
+## By Linguistic Family
+
+### K'ichean Branch
+
+The largest branch, including Guatemala's most widely spoken Mayan languages.
+
+::: {.lang-grid}
+
+::: {.lang-card}
+[K'iche']{.lang-name}
+[1,100,000 speakers]{.lang-speakers}
+[BLEU: 21.32]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Q'eqchi']{.lang-name}
+[800,000 speakers]{.lang-speakers}
+[BLEU: 27.25]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Kaqchikel]{.lang-name}
+[450,000 speakers]{.lang-speakers}
+[BLEU: 41.34]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Tz'utujil]{.lang-name}
+[90,000 speakers]{.lang-speakers}
+[BLEU: 2.86]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Achi]{.lang-name}
+[150,000 speakers]{.lang-speakers}
+[BLEU: 8.30]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Poqomchi']{.lang-name}
+[115,000 speakers]{.lang-speakers}
+[BLEU: 15.15]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Poqomam]{.lang-name}
+[50,000 speakers]{.lang-speakers}
+[BLEU: 11.21]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Sipakapense]{.lang-name}
+[8,000 speakers]{.lang-speakers}
+[BLEU: 15.75]{.lang-bleu}
+:::
+
+:::
+
+### Mamean Branch
+
+Languages spoken primarily in Guatemala's western highlands.
+
+::: {.lang-grid}
+
+::: {.lang-card}
+[Mam]{.lang-name}
+[530,000 speakers]{.lang-speakers}
+[BLEU: 47.07]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Awakateko]{.lang-name}
+[20,000 speakers]{.lang-speakers}
+[BLEU: 15.46]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Tektiteko]{.lang-name}
+[5,000 speakers]{.lang-speakers}
+[BLEU: 15.76]{.lang-bleu}
+:::
+
+:::
+
+### Q'anjob'alan Branch
+
+Languages spoken in the Cuchumatanes highlands of Huehuetenango.
+
+::: {.lang-grid}
+
+::: {.lang-card}
+[Q'anjob'al]{.lang-name}
+[170,000 speakers]{.lang-speakers}
+[BLEU: 23.38]{.lang-bleu}
+:::
+
+::: {.lang-card}
+[Chuj]{.lang-name}
+[65,000 speakers]{.lang-speakers}
+[BLEU: 31.32]{.lang-bleu}
+:::
+
+:::
+
+### Yucatecan Branch
+
+The only representative of this branch in Guatemala.
+
+::: {.lang-grid}
+
+::: {.lang-card}
+[Itza']{.lang-name}
+[~1,000 speakers]{.lang-speakers}
+[BLEU: 4.02]{.lang-bleu}
+:::
+
+:::
+
+## Language Vitality
+
+The languages supported by MayaVoice span the full spectrum of vitality:
+
+- **Thriving** — K'iche' (1.1M), Q'eqchi' (800K), and Mam (530K) are actively spoken across generations and growing.
+- **Stable** — Kaqchikel, Q'anjob'al, and Achi maintain strong intergenerational transmission.
+- **Vulnerable** — Poqomam, Awakateko, and Tektiteko face pressure from Spanish dominance.
+- **Critically endangered** — Itza' has fewer than 1,000 fluent speakers, most elderly. Every digital resource created for Itza' contributes to its preservation.
+
+MayaVoice serves both as a practical translation tool for thriving languages and as a digital preservation resource for endangered ones.

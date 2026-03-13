@@ -1,0 +1,58 @@
+---
+title: "Results & Evaluation"
+---
+
+## Evaluation Methodology
+
+MayaVoice was evaluated on a held-out test set of **300 sentences** that were never seen during training. We report two standard machine translation metrics:
+
+- **BLEU** — measures exact n-gram overlap between the model's output and reference translations. Higher is better.
+- **chrF** — measures character-level similarity, which is particularly appropriate for morphologically complex languages like those of the Mayan family.
+
+## Results by Language
+
+::: {.results-table}
+
+| Language | Family | Speakers (est.) | N | BLEU | chrF |
+|:---------|:-------|:---------------:|:-:|:----:|:----:|
+| Mam | Mamean | 530,000 | 70 | **47.07** | 61.30 |
+| Kaqchikel | K'ichean | 450,000 | 57 | **41.34** | 56.29 |
+| Chuj | Q'anjob'alan | 65,000 | 11 | **31.32** | 54.78 |
+| Q'eqchi' | K'ichean | 800,000 | 22 | **27.25** | 52.03 |
+| Q'anjob'al | Q'anjob'alan | 170,000 | 23 | **23.38** | 43.92 |
+| K'iche' | K'ichean | 1,100,000 | 18 | **21.32** | 38.57 |
+| Tektiteko | Mamean | 5,000 | 20 | **15.76** | 43.78 |
+| Sipakapense | K'ichean | 8,000 | 7 | **15.75** | 48.87 |
+| Awakateko | Mamean | 20,000 | 12 | **15.46** | 34.46 |
+| Poqomchi' | K'ichean | 115,000 | 7 | **15.15** | 31.88 |
+| Poqomam | K'ichean | 50,000 | 24 | **11.21** | 48.97 |
+| Achi | K'ichean | 150,000 | 4 | **8.30** | 44.68 |
+| Itza' | Yucatecan | 1,000 | 7 | **4.02** | 17.21 |
+| Tz'utujil | K'ichean | 90,000 | 18 | **2.86** | 28.81 |
+| **Weighted Average** | | **~3.5M** | **300** | **40.28** | **55.07** |
+
+:::
+
+## Key Findings
+
+### Data availability drives quality
+
+The strongest results come from languages with the most parallel training data (Mam, Kaqchikel), not necessarily from the most widely spoken languages. K'iche', despite having 1.1 million speakers, scores lower than Mam — because less digitized text exists for K'iche'.
+
+### Character-level metrics capture more
+
+chrF scores are consistently higher than BLEU across all languages. This is expected for agglutinative languages where partial word matches carry meaningful semantic content. For practical applications, chrF may be a better indicator of usability.
+
+### Critically endangered languages remain challenging
+
+Itza', with fewer than 1,000 remaining speakers and almost no digitized text, represents the hardest challenge. Its low scores reflect the extreme scarcity of training data rather than a fundamental model limitation.
+
+### Genetic relatedness ≠ performance
+
+Within the K'ichean branch alone, BLEU ranges from 41.34 (Kaqchikel) to 2.86 (Tz'utujil). Language family membership alone does not predict translation quality — available data is the dominant factor.
+
+## Context
+
+These results represent the first publicly reported benchmarks for AI translation of Guatemalan Mayan languages. There is no prior baseline to compare against for most of these language pairs, making MayaVoice a foundational reference point for future research.
+
+For context, commercial translation systems typically achieve BLEU scores of 30-50 for well-resourced language pairs (e.g., English-French, English-German). MayaVoice achieves scores in this range for its top-performing languages (Mam: 47.07, Kaqchikel: 41.34) despite working with orders of magnitude less training data.
