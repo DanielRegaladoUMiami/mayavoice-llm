@@ -29,8 +29,8 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, styles.css]
+    theme: cosmo
+    css: styles.css
     toc: true
     toc-depth: 2
     smooth-scroll: true
