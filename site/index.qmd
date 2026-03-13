@@ -141,4 +141,4 @@ MayaVoice is an open research project. We welcome collaborations with linguists,
 :::
 
 [Try the Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){.cta-button}
-[View on GitHub](https://github.com/DanielRegaladoUMiami/mayavoice-llm){.cta-button .secondary}
+[Contact Us](mailto:dxr1491@miami.edu){.cta-button .secondary}

@@ -19,8 +19,6 @@ website:
       - text: "Vision"
         href: vision.qmd
     right:
-      - icon: github
-        href: https://github.com/DanielRegaladoUMiami/mayavoice-llm
       - text: "Try Demo"
         href: https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice
 
