@@ -3,12 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "MayaVoice"
+  title: "🌽 MayaVoice"
   favicon: "images/favicon.png"
   navbar:
     background: "#1a5632"
     foreground: "#ffffff"
-    logo: "images/logo.png"
     left:
       - text: "Home"
         href: index.qmd
