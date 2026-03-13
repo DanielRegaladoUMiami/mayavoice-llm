@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: ""
+  title: "MayaVoice"
   favicon: "images/favicon.png"
   navbar:
     background: "#1a5632"
@@ -19,7 +19,7 @@ website:
       - text: "Vision"
         href: vision.qmd
     right:
-      - text: "Try Demo"
+      - text: "🤗 Try Demo"
         href: https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice
 
   page-footer:
